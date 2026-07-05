@@ -14,3 +14,28 @@ Transfer-Encoding: chunked
   "isGlutenFree": false
 }
 
+## Get
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Sun, 05 Jul 2026 06:14:14 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+  {
+    "id": 1,
+    "name": "Classic Italian",
+    "isGlutenFree": false
+  },
+  {
+    "id": 2,
+    "name": "Veggie",
+    "isGlutenFree": true
+  },
+  {
+    "id": 3,
+    "name": "Pepperoni",
+    "isGlutenFree": false
+  }
+]
